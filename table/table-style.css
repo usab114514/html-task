@@ -1,0 +1,43 @@
+@charset "utf-8";
+ img{
+    width: 50%;
+}
+h1{
+    color:#FFFFFF;
+
+}
+body{
+    background-color: rgba(255,0,0,0.2);
+    font-family: "HGP教科書体",serif;
+    background-image: url(img/images.jpg);
+
+    
+}
+li,td{
+    font-size: 5px;
+}
+ol{
+    border: solid 10px rgb(51, 153, 50);
+    border-radius: 10px;
+
+}
+table,th,td{
+    border: solid 50px rgb(50, 153, 51);
+    border-radius: 10px;
+    border-collapse:collapse ;
+    margin-bottom: 5%;
+}
+th,td{
+    padding: 10px;
+}
+ul{
+    margin: 10px;
+}
+ul li{
+    list-style-image:("img/marker.png") ;
+}
+
+ol li{
+    list-style-type: square;
+    list-style-position:inside ;
+}
