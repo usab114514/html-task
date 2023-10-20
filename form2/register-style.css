@@ -1,0 +1,21 @@
+@charset "utl-8";
+table{
+    border: solid 9px rgb(232, 14, 14);
+}
+.hissu {
+    background-color: rgb(255, 0, 204);
+    border-radius: 15px;
+    color: rgb(8, 0, 9);
+    font-size: 8px;
+}
+.tiisaku {
+    font-size: 8px;
+}
+th {
+    background-color: rgb(22, 192, 214);
+    text-align: left;
+    vertical-align: top;
+}
+td {
+    background-color: rgb(15, 95, 223);
+}
