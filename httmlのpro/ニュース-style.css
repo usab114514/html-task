@@ -1,0 +1,62 @@
+main{
+    background-color: pink;
+    padding: 0.5rem;
+}
+
+.container{
+    display: flex;
+}
+
+main{
+    width: 70%;
+}
+aside{
+    background-color: #fed0e0;
+    padding: 0.5rem;
+    width: 30%;
+}
+
+main{
+    padding: 0.5rem;
+}
+
+main article{
+    background-color: #fed0e0;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+}
+
+main section{
+    padding: 0.5rem;
+}
+
+main article th{
+    padding: 0.5rem;
+    text-align: left;
+}
+header nav ul{
+    display: flex;
+    padding: 0px;
+    list-style: none;
+}
+
+header ul li{
+    width: 20%;
+    text-align: center;
+}
+img{
+    text-align:right;
+}
+
+.group{
+    display: flex;
+
+}
+#keigo , #FF {
+    list-style: none;
+}
+p.ニュース:hover{
+    color: #FF0000;
+	font-size: 20px;
+	font-weight: bold;
+}
