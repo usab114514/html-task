@@ -1,0 +1,27 @@
+img {
+    width: 100%;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+
+.kasetto {
+    width: 50%;
+    height: 80%;
+
+
+
+}
+
+.flex {
+    display: flex;
+}
+
+.h1::before,
+::after{
+    background-color: rgb(12, 22, 30);
+    border-radius: 5px;
+    content: "";
+    height: 5px;
+    width: 100px;
+}

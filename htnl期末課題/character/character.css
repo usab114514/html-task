@@ -1,0 +1,8 @@
+.character{
+    margin: 3px 18.5px;
+    width: 60;
+    height: 60;
+    display: flex;
+    flex-wrap: wrap;
+  text-align: center;
+}

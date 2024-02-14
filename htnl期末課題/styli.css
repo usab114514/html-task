@@ -1,0 +1,107 @@
+.logo {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 7rem;
+  width: 100%;
+  height: 900px;
+}
+
+body {
+  background-image: url(img/haikei.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+
+.rogo {
+  height: 350px;
+  margin-top: 0px;
+  width: 100%;
+  display: flex;
+}
+
+
+.buy {
+  text-align: left;
+  width: 800px;
+  vertical-align: middle;
+  display: table;
+}
+
+.buy a {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.buy p{
+  font-size: 50px;
+}
+
+.div1 a {
+  padding: auto;
+  width: auto;
+  justify-content: center;
+}
+
+.buy a {
+  text-align: center;
+  justify-content: center;
+  font-size: 5rem;
+  width: 400px;
+  background-color: #333;
+  color: #fff;
+  /* margin-left: auto; */
+  text-decoration: none;
+
+}
+
+.slideinTop {
+  animation: slideinTop 4s ;
+}
+
+@keyframes slideinTop {
+  0% {
+    transform: translateY(-500px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.slideinTop {
+  height: 1000px;
+  width: 1000px;
+}
+
+.logo {
+  margin-left: 80px;
+} 
+a.hiroto1 {
+	display: block;
+	text-align: center;
+	vertical-align: middle;
+	text-decoration: none;
+	position: relative;
+	width: 120px;
+	margin: auto;
+	padding: 1rem 4rem;
+	font-weight: bold;
+	border-radius: 10px;
+	color: #27ACD9;
+	border: 3px solid #27ACD9;
+	box-shadow: 5px 5px #27ACD9;
+	transition: 0.3s ease-in-out;
+}
+a.hiroto1:hover {
+	box-shadow: none;
+	transform: translate(5px, 5px);
+	color: #27ACD9;
+} 
+
+.img{
+  width: 600px;
+  height: 450px;
+  object-fit: cover;
+}
